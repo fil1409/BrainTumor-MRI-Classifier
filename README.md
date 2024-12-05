@@ -43,7 +43,10 @@ Il sistema è stato sviluppato seguendo i seguenti passaggi:
 - **Ridimensionamento**: Tutte le immagini sono ridimensionate a 224x224 pixel per garantire uniformità.  
 - **Normalizzazione**: I valori dei pixel sono normalizzati per migliorare la qualità dei dati in input.  
 - **Filtraggio Gaussiano**: Riduce il rumore e mantiene la regione di interesse.
+**Immagini prima del pre-processing**:
 ![Immagini prima del pre-processing](images/Immagine2.png)
+
+**Immagini dopo il pre-processing**:
 ![Immagini dopo il pre-processing](images/Immagine3.png)
 
 ---
@@ -65,14 +68,11 @@ Il modello fuso utilizza le caratteristiche estratte dagli ultimi layer convoluz
 - La matrice di confusione mostra prestazioni solide nelle quattro classi:  
 ![Matrice di Confusione](images/Immagine1.png)
 
-🏁 Come Eseguire
+## 🏁 Come Eseguire
 1)  Clonare la repository
-
 git clone https://github.com/username/BrainTumor-MRI-Classifier.git
 
 cd BrainTumor-MRI-Classifier
-2)  Installare le dipendenze
-pip install -r requirements.txt
 
 3)  Eseguire il preprocessing
 Utilizzare  OperazioniPreProcessing.py per eseguire le operazioni di pre processing
