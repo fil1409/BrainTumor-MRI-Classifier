@@ -30,10 +30,10 @@ Il sistema è stato sviluppato seguendo i seguenti passaggi:
 - **Normalizzazione**: I valori dei pixel sono normalizzati per migliorare la qualità dei dati in input.  
 - **Filtraggio Gaussiano**: Riduce il rumore e mantiene la regione di interesse.
 **Immagini prima del pre-processing**:
-<img src="images/Immagine2.png" alt="Immagini prima del pre-processing" width="50%">
+![Immagini prima del pre-processing](images/Immagine2.jpg)
 
 **Immagini dopo il pre-processing**:
-<img src="images/Immagine3.png" alt="Immagini dopo il pre-processing" width="50%">
+![Immagini dopo il pre-processing](images/Immagine3.jpg)
 
 ---
 
