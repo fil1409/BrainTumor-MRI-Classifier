@@ -1,19 +1,5 @@
 # Brain Tumor Classification with MRI Images Using Fusion Model   
 
-## 📋 Indice  
-1. [Introduzione](#introduzione)  
-2. [Sistema Proposto](#sistema-proposto)  
-3. [Dataset](#dataset)  
-4. [Preprocessing](#preprocessing)  
-5. [Data Augmentation](#data-augmentation)  
-6. [Modello Fuso](#modello-fuso)  
-7. [Testing e Risultati](#testing-e-risultati)  
-8. [Come Eseguire](#come-eseguire)  
-9. [Conclusioni](#conclusioni)  
-10. [Licenza](#licenza)  
-
----
-
 ## 🧠 Introduzione  
 Il progetto mira a sviluppare un sistema di classificazione automatica dei tumori cerebrali utilizzando immagini di risonanza magnetica (MRI) e modelli di deep learning combinati. Questo sistema mira a supportare i medici nella diagnosi precoce e accurata dei tumori cerebrali, migliorando così i trattamenti e riducendo il rischio di errori umani.
 
@@ -44,10 +30,10 @@ Il sistema è stato sviluppato seguendo i seguenti passaggi:
 - **Normalizzazione**: I valori dei pixel sono normalizzati per migliorare la qualità dei dati in input.  
 - **Filtraggio Gaussiano**: Riduce il rumore e mantiene la regione di interesse.
 **Immagini prima del pre-processing**:
-![Immagini prima del pre-processing](images/Immagine2.png)
+<img src="images/Immagine2.png" alt="Immagini prima del pre-processing" width="50%">
 
 **Immagini dopo il pre-processing**:
-![Immagini dopo il pre-processing](images/Immagine3.png)
+<img src="images/Immagine3.png" alt="Immagini dopo il pre-processing" width="50%">
 
 ---
 
@@ -71,18 +57,17 @@ Il modello fuso utilizza le caratteristiche estratte dagli ultimi layer convoluz
 ## 🏁 Come Eseguire
 1)  Clonare la repository
 
-git clone https://github.com/username/BrainTumor-MRI-Classifier.git
-
-cd BrainTumor-MRI-Classifier
+    - git clone https://github.com/username/BrainTumor-MRI-Classifier.git
+    - cd BrainTumor-MRI-Classifier
 
 2)  Eseguire il preprocessing
 
-Utilizzare  OperazioniPreProcessing.py per eseguire le operazioni di pre processing
+    - Utilizzare  OperazioniPreProcessing.py per eseguire le operazioni di pre processing
 
 3)  Training del modello
    
-Addestrare il modello utilizzando ModelloTrainingCollettivo.py
+    - Addestrare il modello utilizzando ModelloTrainingCollettivo.py
 
 4)  Testing del modello
    
-Visualizzare i risultati del modello attraverso TestingCollettivo.ipynb
+    - Visualizzare i risultati del modello attraverso TestingCollettivo.ipynb
