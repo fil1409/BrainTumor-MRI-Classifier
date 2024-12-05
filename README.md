@@ -66,19 +66,23 @@ Il modello fuso utilizza le caratteristiche estratte dagli ultimi layer convoluz
 ## 📈 Testing e Risultati  
 - Il modello ha ottenuto un'accuratezza complessiva del **92%**.  
 - La matrice di confusione mostra prestazioni solide nelle quattro classi:  
-![Matrice di Confusione](images/Immagine1.png)
+![Matrice di Confusione](images/Immagine1.jpg)
 
 ## 🏁 Come Eseguire
 1)  Clonare la repository
+
 git clone https://github.com/username/BrainTumor-MRI-Classifier.git
 
 cd BrainTumor-MRI-Classifier
 
-3)  Eseguire il preprocessing
+2)  Eseguire il preprocessing
+
 Utilizzare  OperazioniPreProcessing.py per eseguire le operazioni di pre processing
 
-4)  Training del modello
+3)  Training del modello
+   
 Addestrare il modello utilizzando ModelloTrainingCollettivo.py
 
-5)  Testing del modello
+4)  Testing del modello
+   
 Visualizzare i risultati del modello attraverso TestingCollettivo.ipynb
