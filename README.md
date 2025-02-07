@@ -51,7 +51,7 @@ Il modello fuso utilizza le caratteristiche estratte dagli ultimi layer convoluz
 ## 🏁 Come Eseguire
 1)  Clonare la repository
 
-    - git clone https://github.com/username/BrainTumor-MRI-Classifier.git
+    - git clone https://github.com/fil1409/BrainTumor-MRI-Classifier.git
     - cd BrainTumor-MRI-Classifier
 
 2)  Eseguire il preprocessing
@@ -118,7 +118,7 @@ The fusion model utilizes features extracted from the last convolutional layers 
 ## 🏁 How to Run
 1) Clone the repository
 
-    - git clone https://github.com/username/BrainTumor-MRI-Classifier.git
+    - git clone https://github.com/fil1409/BrainTumor-MRI-Classifier.git
     - cd BrainTumor-MRI-Classifier
 
 2) Run preprocessing
